@@ -1,0 +1,122 @@
+.main-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to bottom, #141e30, #5994ff);
+  overflow: hidden;
+  font-family: 'Open Sans';
+  gap: 3rem;
+  // background: linear-gradient(to bottom,rgb(18 142 201), #fff );
+  // background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  // background: linear-gradient(to bottom, #141e30, #301c5e);
+  // background: linear-gradient(to bottom, #141e30, #2364b7);
+  // background: linear-gradient(to bottom, #141e30, #301c5e);
+   // background: linear-gradient(to bottom, #141e30, #141e30);
+}
+
+/* PRIMER CONTAINER */
+.first-container{
+  color: #efefef;
+  z-index: 1;
+}
+
+.title{
+  font-size: 2.5rem;
+}
+
+/* SEGUNDO CONTAINER */
+.second-container{
+  background-color: #fff;
+  width: 22rem;
+  height: 25rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  z-index: 1;
+}
+
+
+
+.form-title{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.submit-button {
+  // background: rgb(0, 156, 223);
+  background: rgb(83 138 237);
+  color: #fff;
+  width: 15rem;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form-input-container{
+  margin: 1.5rem 0 1rem 0;
+  gap: 1rem;
+}
+
+.form-input{
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  background: #e8f0fe;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.form-input:focus{
+  transition: border-color 0.2s ease-in-out;
+  border: 1px solid rgb(83 138 237);
+}
+
+.form-link{
+  color: rgb(83 138 237);
+  font-size: 0.9rem;
+  text-align: right;
+  margin-bottom: 3rem;
+}
+
+.submit-button:hover{
+  background: rgb(67, 127, 238);
+
+}
+
+/* BACKGROUND */
+
+svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  padding-right: 40px; /* Deja espacio para el ícono */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px; /* Alinea el ícono al borde derecho */
+  cursor: pointer;
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.toggle-password:hover {
+  color: #000; /* Cambia de color al hacer hover */
+}
